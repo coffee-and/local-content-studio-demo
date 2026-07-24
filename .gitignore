@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Secrets
+.env
+
+# Runtime data
+*.db
+*.db-shm
+*.db-wal
+logs/
+output/
+.capture_runtime-*/
+.tmp/
+
+# Packaging
+build/
+dist/
+*.spec.bak
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
